@@ -1,0 +1,9 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./apps/api" },
+    { "path": "./apps/client" },
+    { "path": "./packages/contracts" },
+    { "path": "./packages/telemetry" }
+  ]
+}

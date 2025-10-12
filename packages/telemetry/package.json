@@ -1,0 +1,22 @@
+{
+  "name": "@alpha/telemetry",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -b",
+    "lint": "eslint .",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@opentelemetry/api": "^1.9.0",
+    "@opentelemetry/exporter-azure-monitor": "^1.0.0-beta.25",
+    "@opentelemetry/sdk-node": "^0.54.0",
+    "@opentelemetry/auto-instrumentations-node": "^0.53.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
